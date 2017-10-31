@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestB2BUSA1">
+	<test name="Test Jafra B2B USA">
+		<classes>
+			<class name="com.sap.hybris.selenium.test.B2BUSA1">
+		  		<methods>
+					<exclude name="t2changeAccount" />
+					<exclude name="t3aSOCard"></exclude>
+					<exclude name="t3aSOCard"></exclude>
+					<exclude name="t3bSOCard"></exclude>
+				</methods> 
+			</class>
+		</classes>
+	</test>
+</suite>

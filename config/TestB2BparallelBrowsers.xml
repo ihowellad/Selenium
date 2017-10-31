@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Jafra Regression Test" parallel="classes">
+	<test name="B2BUSA1">
+		<classes>
+			<class name="com.sap.hybris.selenium.test.B2BUSA1"></class>
+			<class name="com.sap.hybris.selenium.test.B2BUSA1ff"></class>
+		</classes>
+	</test>
+</suite>

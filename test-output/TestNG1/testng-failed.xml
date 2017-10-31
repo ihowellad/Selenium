@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG1]" parallel="classes">
+  <test name="Test Annotations(failed)" parallel="classes">
+    <classes>
+      <class name="com.sap.hybris.selenium.test.B2BUSA1ff">
+        <methods>
+          <include name="t4aViewOrderHistory"/>
+          <include name="invokeBrowser"/>
+          <include name="t3aSOCard"/>
+          <include name="t2changeAccount"/>
+          <include name="t1loginToB2BUSA" invocation-numbers="0"/>
+          <include name="t3bSOCard"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.sap.hybris.selenium.test.B2BUSA1ff -->
+      <class name="com.sap.hybris.selenium.test.B2BUSA1">
+        <methods>
+          <include name="t3bSOCard"/>
+          <include name="closeBrowser"/>
+          <include name="t1loginToB2BUSA" invocation-numbers="0"/>
+          <include name="t3aSOCard"/>
+          <include name="t2changeAccount"/>
+          <include name="invokeBrowser"/>
+          <include name="t4aViewOrderHistory"/>
+        </methods>
+      </class> <!-- com.sap.hybris.selenium.test.B2BUSA1 -->
+    </classes>
+  </test> <!-- Test Annotations(failed) -->
+</suite> <!-- Failed suite [TestNG1] -->
