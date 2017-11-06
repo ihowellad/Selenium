@@ -1,0 +1,1 @@
+java -cp binaries:lib/* com.beust.testng.TestNG config/TestB2BUSAOrderHistory-headless.xml
